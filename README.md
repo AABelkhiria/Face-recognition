@@ -24,7 +24,7 @@ pip install opencv-python
 
 The function that captures data from the camera is:
 
-```
+```python
 cap = cv2.VideoCapture(0)
 ```
 
@@ -32,7 +32,7 @@ cap = cv2.VideoCapture(0)
 
 Python at Raspbian OS includes a library to use the camera of the Raspberry Pi, this one is called by:
 
-```
+```python
 from picamera       import PiCamera
 from picamera.array import PiRGBArray
 ```
